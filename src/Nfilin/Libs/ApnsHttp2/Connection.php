@@ -117,6 +117,7 @@ class Connection extends CurlConnection
         curl_setopt($ch, CURLOPT_SSLKEY, $this->auth->certificate);
         curl_setopt($ch, CURLOPT_SSLKEYTYPE, 'PEM');
         curl_setopt($ch, CURLOPT_SSLKEYPASSWD, $this->auth->passPhrase);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         return $this;
     }
 }
