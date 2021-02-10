@@ -1,6 +1,6 @@
 {
-  "name": "nfilin/apns-http2",
-  "homepage": "https://github.com/nfilin/apns-http2",
+  "name": "appoly/apns-http2",
+  "homepage": "https://github.com/appoly/apns-http2",
   "type": "library",
   "license": "MIT",
   "authors": [
